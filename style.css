@@ -1,0 +1,31 @@
+  body{
+    background-color: lightgray;
+}
+  h1{color: darkturquoise
+ }
+
+  .box{
+  padding: 10px;
+  background: white;
+  margin-top:50px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:20px;
+  align-content: center;
+}
+
+  p{color: black;
+    font-size: 20px
+  }
+  .navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 25px;
+    background: rgb(246, 249, 252);
+  }
+  
+  #brand {background-color: darkturquoise;
+  ;color:white;
+  font-weight: bold
+  ;font-size: 20pt;
+  }
