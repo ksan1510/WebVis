@@ -1,16 +1,24 @@
   body{
     background-color: lightgray;
 }
-  h1{color: darkturquoise
+  h1{color: rgb(0, 73, 209)
  }
 
   .box{
-  padding: 10px;
+  padding: 20px;
   background: white;
   margin-top:50px;
   margin-left:5px;
   margin-right:5px;
-  margin-bottom:20px;
+  align-content: center;
+}
+
+.boxcomp{
+  padding: 50px;
+  background: white;
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:50px;
   align-content: center;
 }
 
@@ -24,8 +32,15 @@
     background: rgb(246, 249, 252);
   }
   
-  #brand {background-color: darkturquoise;
+  #brand {background-color: rgb(0, 73, 209);
   ;color:white;
   font-weight: bold
   ;font-size: 20pt;
   }
+
+  .navbar-nav ul li a:hover {
+    /* color: #fff !important; */
+    color: #143868 !important; 
+    display: block;
+  }
+

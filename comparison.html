@@ -40,54 +40,52 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="comparison.html">Comparison</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="data.html">Data</a>
-                    </li>
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
             </ul>
 
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-md-7">
                 <div class="box">
-                    
-                    <h1 class="h1">Summary: Latitude vs. X</h1>
-                    <img src="img/Fig1.png" class="img float-left" height="250" width="270">
-                    
-                    <p>The purpose of this project is to analyze how the weather changes as one travels closer to the
-                        equator. To accomplish our analysis, we used the Open Weather API and the CitiPy Python Library
-                        to randomly pull 500 cities from around the world to create our dataset. </p>
-                    <p>After we assembled our data, we used the Pandas and Matplotlib Python libraries to analyze our
-                        data set. Our four dependent variables were: max temperature, humidity, cloudiness, and wind
-                        speed. This dashboard shows the source data and the visualizations based on our four dependent
-                        variables. We also explain the trends that is shown in our visualizations
-                    </p>
-                    <br></br>
-                    <br></br>
-                    
-                    
+                    <h1 class="h1">Wind Speed</h1>
+                    <div class="box">
+                            <a href="temperature.html"><img src="img/Fig1.png" alt="Temp vs. Latitude Scatterplt" height="180"
+                                    width="180"></a>
+                    <p>There is no strong association between latitude and wind speed. 
+                        There are, however, a few cities in the Northern Hemisphere that seem to experience high windspeeds (25 mph to 35 mph).</p>
 
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-sm-10 col-md-5">
-                <div class="box">
+            <div class="container-fluid">
+                <div class="boxcomp">
                     <div class="page-header">
-                        <h1>Visualizations</h1>
+                        <h1>Comparisons</h1>
                     </div>
-                    <div class="box">
-                        <a href="temperature.html"><img  src="img/Fig1.png" alt="Temp vs. Latitude Scatterplt" 
-                            height="200" width="200"></a>
+                    <p>Click any plot to get an in-depth analysis.</p>
+                    
+                        <h1 class="h3">Temperature</h1>
+                        <a href="temperature.html"><img id='image' src="img/Fig1.png" alt="Temp vs. Latitude Scatterplt" 
+                            height="800" width="850"></a>
+                                
+                    <h1 class="h3">Humidity</h1>
                         <a href="humidity.html"><img src="img/Fig2.png" alt="Humidity vs. Latitude Scatterplt" 
-                            height="200" width="200"></a>
+                            height="800" width="850"></a>
+                                
+                            <h1 class="h3">Cloudiness</h1>
                         <a href="cloudiness.html"><img src="img/Fig3.png" alt="Cloudiness vs. Latitude Scatterplt"
-                            height="200" width="200"></a>
+                            height="800" width="850"></a>
+                                <h1 class="h3">Wind Speed</h1>
                         <a href="wind.html"><img src="img/Fig4.png" alt="Wind Speed vs. Latitude Scatterplt" 
-                            height="200" width="200"></a>
+                            height="800" width="850"></a>
+                                
                     </div>
 </body>
 
@@ -99,6 +97,3 @@
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-</body>
-
-</html>
